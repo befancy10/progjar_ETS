@@ -34,10 +34,6 @@
 5. **Hasil stress test dirangkum ke dalam tabel**, setiap baris adalah satu kombinasi.
    - Total kombinasi: `2 (operasi) x 3 (volume file) x 3 (jumlah client worker) x 3 (jumlah server worker) = 81 kombinasi`
 
-### Format Tabel Rekap:
-| No | Operasi | Volume | Jumlah Client Worker Pool | Jumlah Server Worker Pool | Waktu Total (s) per Client | Throughput (bytes/s) per Client | Jumlah Worker Client Success | Jumlah Worker Client Gagal | Jumlah Worker Server Success | Jumlah Worker Server Gagal |
-|----|---------|--------|--------------------|--------------------|------------------|-----------------------|----------------|--------------|----------------|---------------|
-
 ---
 
 > **Catatan**: Pastikan semua percobaan dilakukan untuk kedua model concurrency: **Multithreading Pool** dan **Multiprocessing Pool**.
